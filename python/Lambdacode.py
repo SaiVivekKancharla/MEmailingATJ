@@ -44,7 +44,7 @@ def lambda_handler(event, context):
     RECIPIENT = ""
     
     # Amazon SES region
-    AWS_REGION = "us-east-1"  # If this is not set properly the function will fail to connect
+    AWS_REGION = "us-east-2"  # If this is not set properly the function will fail to connect
     
     CHARSET = "UTF-8"
     # Create a new SES resource and specify a region.
