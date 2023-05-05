@@ -77,7 +77,7 @@ resource "aws_lambda_function" "lambda_func" {
 
 resource "aws_s3_bucket" "listbucket" {
     
-bucket = "memailATJcsv"
+bucket = "memailatjcsv"
 acl = "private"
 
 versioning {
